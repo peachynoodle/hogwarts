@@ -20,6 +20,31 @@ nav {
 
 }
 
+#navbar ul li a:link, #navbar ul li a:visited {
+    display: block;
+    text-decoration: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+}
+
+#navbar ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li.active {
+    background-color: #FFF;
+    color: black;
+}
+
 section {
 
 }
@@ -33,30 +58,34 @@ aside {
 
 h1 {
   text-align: center;
+  font-family: 'Cormorant SC', serif;
 }
 
 h2 {
-  text-align: center;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
 }
 
 h3 {
-  text-align: center;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
 }
 
 h4 {
-  text-align: center;
+    text-align: center;
 }
 
 h5 {
-  text-align: center;
+    text-align: center;
 }
 
 h6 {
-  text-align: center;
+    text-align: center;
 }
 
 p {
-  text-align: center;
+    text-align: center;
+    font-family: 'Cormorant', serif;
 }
 
 blockquote {
@@ -71,7 +100,16 @@ ul {
 
 }
 
+
 li {
+
+}
+
+li a {
+
+}
+
+li a:hover {
 
 }
 
@@ -81,21 +119,30 @@ div.bg{
     height:649px;
 }
 
+caption {
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-size: 50px;
+}
 table {
-  margin: 0 auto;
-  width: 400px;
+    margin: 0 auto;
+    width: 400px;
 }
 
 tr {
-  text-align: center;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+
 }
 
 th {
-  text-align: center;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+
 }
 
 td {
-  text-align: center;
+    text-align: center;
 }
 
 
