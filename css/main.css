@@ -40,6 +40,9 @@ nav {
     padding: 0;
 }
 
+#navbar li {
+    
+}
 #navbar li.active {
     background-color: #FFF;
     color: black;
