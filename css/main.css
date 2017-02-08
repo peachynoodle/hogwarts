@@ -1,8 +1,7 @@
 /*** sectioning elements ***/
 
-body {
-      background: url("/img/parchment.jpg") no-repeat;
-      background-attachment: fixed;
+body  {
+
 }
 
 header {
@@ -34,11 +33,12 @@ nav {
 .navbar-menu a:visited {
     color: #000;
     font-family: 'Cormorant SC', serif;
+    font-weight: bold;
 }
 
 .navbar-menu a:hover,
 .navbar-menu a:active {
-    border-bottom: 3px solid #000;
+    border-bottom: 2px solid #000;
     text-decoration: none;
 }
 
@@ -56,33 +56,40 @@ aside {
 h1 {
   text-align: center;
   font-family: 'Cormorant SC', serif;
+  color: #000;
 }
 
 h2 {
     text-align: center;
     font-family: 'Cormorant SC', serif;
+    color: #000;
 }
 
 h3 {
     text-align: center;
     font-family: 'Cormorant SC', serif;
+    color: #000;
 }
 
 h4 {
     text-align: center;
+    color: #000;
 }
 
 h5 {
     text-align: center;
+    color: #000;
 }
 
 h6 {
     text-align: center;
+    color: #000;
 }
 
 p {
     text-align: center;
     font-family: 'Cormorant', serif;
+    color: #222;
 }
 
 blockquote {
