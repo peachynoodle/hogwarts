@@ -26,12 +26,12 @@ nav {
 /*navbar*/
 
 .navbar {
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.12)
 }
 
 .navbar-menu a:link,
 .navbar-menu a:visited {
-    color: #000;
+    color: #222;
     font-family: 'Cormorant SC', serif;
     font-weight: bold;
 }
@@ -92,6 +92,13 @@ p {
     color: #222;
 }
 
+p.heavy {
+    text-align: center;
+    font-family: 'Cormorant', serif;
+    color: #333;
+    font-weight: 400;
+
+}
 blockquote {
 
 }
@@ -126,7 +133,8 @@ div.bg{
 caption {
     text-align: center;
     font-family: 'Cormorant SC', serif;
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: 1000;
 }
 table {
     margin: 0 auto;
@@ -136,17 +144,20 @@ table {
 tr {
     text-align: center;
     font-family: 'Cormorant SC', serif;
+    font-weight: 900;
 
 }
 
 th {
     text-align: center;
     font-family: 'Cormorant SC', serif;
-
+    font-weight: 900;
 }
 
 td {
     text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-weight: 500;
 }
 
 
@@ -156,6 +167,10 @@ img  {
 
 }
 
+img.resize {
+    width:350px;
+    height: auto;
+}
 img.center {
     display: block;
     margin: 0 auto;
