@@ -1,7 +1,7 @@
 /*** sectioning elements ***/
 
 body  {
-
+    cursor: url('http://www.rw-designer.com/cursor-extern.php?id=26747'), default;
 }
 
 header {
@@ -59,9 +59,10 @@ aside {
 /**** content styles ***/
 
 h1 {
-  text-align: center;
-  font-family: 'Cormorant SC', serif;
-  color: #000;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    color: #000;
+    font-size: 45px;
 
 }
 
@@ -69,18 +70,21 @@ h2 {
     text-align: center;
     font-family: 'Cormorant SC', serif;
     color: #000;
+    font-size: 40px;
 }
 
 h3 {
     text-align: center;
     font-family: 'Cormorant SC', serif;
     color: #000;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 h4 {
     text-align: center;
+    font-family: 'Cormorant SC', serif;
     color: #000;
+    font-size: 34px;
 }
 
 h5 {
@@ -104,8 +108,8 @@ p.heavy {
     font-family: 'Cormorant', serif;
     color: #333;
     font-weight: 400;
-
 }
+
 blockquote {
 
 }
@@ -152,7 +156,6 @@ tr {
     text-align: center;
     font-family: 'Cormorant SC', serif;
     font-weight: 900;
-
 }
 
 th {
@@ -183,22 +186,23 @@ img.center {
     margin: 0 auto;
 }
 
+img.margin {
+    margin: 12px;
+}
+
 
 /*** link styles ***/
-
-a:link {
+a:link,
+a:visited {
   color: #555;
   text-decoration: none;
+  cursor: url('http://www.rw-designer.com/cursor-extern.php?id=26747'), auto;
 }
 
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
+a:hover,
 a:active {
+  font-weight: bold;
+  border-bottom: 1px solid #000;
   text-decoration: none;
+  cursor: url('http://www.rw-designer.com/cursor-extern.php?id=26747'), auto;
 }
