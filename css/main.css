@@ -4,6 +4,11 @@ body  {
     cursor: url('http://www.rw-designer.com/cursor-extern.php?id=26747'), default;
 }
 
+body.table {
+    cursor: url('http://www.rw-designer.com/cursor-extern.php?id=26747'), default;
+    max-width: 100%;
+    padding: 7px;
+}
 header {
 
 }
@@ -19,6 +24,12 @@ footer {
 nav {
 
 }
+
+@media screen and (max-device-width: 480px) {
+h1 { font-size: 30px;}
+
+}
+
 /*======================
       ODIN OVERRIDE
 ======================*/
@@ -60,7 +71,7 @@ aside {
 
 h1 {
     text-align: center;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Cinzel', serif;
     color: #000;
     font-size: 45px;
 
@@ -68,31 +79,23 @@ h1 {
 
 h2 {
     text-align: center;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Cinzel', serif;
     color: #000;
     font-size: 40px;
 }
 
 h3 {
     text-align: center;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Cormorant SC', serif;
     color: #000;
     font-size: 25px;
 }
 
 h4 {
     text-align: center;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Cinzel', serif;
     color: #000;
     font-size: 34px;
-}
-
-h4.house {
-    text-align: center;
-    font-family: 'Playfair Display SC', serif;
-    color: #000;
-    font-size: 32px;
-
 }
 
 h5 {
@@ -109,7 +112,6 @@ p {
     text-align: center;
     font-family: 'Cormorant', serif;
     color: #222;
-    font-size: 20px;
 }
 
 p.heavy {
@@ -117,16 +119,8 @@ p.heavy {
     font-family: 'Cormorant', serif;
     color: #333;
     font-weight: 400;
-    font-size: 20px;
 }
 
-p.house {
-    text-align: center;
-    font-family: 'Cormorant', serif;
-    color: #222;
-    font-size: 17px;
-
-}
 blockquote {
 
 }
@@ -169,16 +163,37 @@ table {
     width: 390px;
 }
 
+table.directory {
+    margin: 0 auto;
+    width: 980px;
+    border-collapse: collapse;
+
+}
+
 tr {
     text-align: center;
     font-family: 'Cormorant SC', serif;
     font-weight: 900;
 }
 
+tr.directory {
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-weight: 900;
+    border: 1px solid #000;
+}
 th {
     text-align: center;
     font-family: 'Cormorant SC', serif;
     font-weight: 900;
+}
+
+th.directory {
+    padding: 5px;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-weight: 900;
+    font-size: 23px;
 }
 
 td {
@@ -187,6 +202,40 @@ td {
     font-weight: 500;
 }
 
+td.directory {
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-weight: 590;
+    padding: 6px;
+    font-size: 19px;
+}
+
+@media (max-width: 650px) {
+  table.directory {
+    width: 100%;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr.directory {
+    display: block;
+    margin: 6px 0;
+  }
+
+  td.directory {
+    display: block;
+    text-align: right;
+  }
+
+  td::before {
+    content: attr(aria-label);
+    float: left;
+    font-weight: bold;
+  }
+
+}
 
 /*** image styles ***/
 
