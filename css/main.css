@@ -135,6 +135,19 @@ p.heavy {
     font-weight: 600;
 }
 
+h1::before {
+    content: "~";
+}
+
+h1::after {
+    content: "~";
+}
+
+
+h1{
+
+}
+
 blockquote {
 
 }
@@ -148,6 +161,7 @@ ul {
     font-family: 'Cormorant', serif;
     color: #222;
     font-weight: 600;
+    list-style-type: none;
 }
 
 ul li {
@@ -190,6 +204,12 @@ table.directory {
 
 }
 
+table.index {
+    margin: 0 auto;
+    width: 400px;
+    border-collapse: collapse;
+}
+
 tr {
     text-align: center;
     font-family: 'Cormorant SC', serif;
@@ -202,6 +222,14 @@ tr.directory {
     font-weight: 900;
     border: 1px solid #000;
 }
+
+tr.index {
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-weight: 900;
+    border: 1px solid #000;
+}
+
 th {
     text-align: center;
     font-family: 'Cormorant SC', serif;
@@ -216,6 +244,14 @@ th.directory {
     font-size: 23px;
 }
 
+th.index {
+    padding: 5px;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-weight: 900;
+    font-size: 23px;
+}
+
 td {
     text-align: center;
     font-family: 'Cormorant SC', serif;
@@ -223,6 +259,14 @@ td {
 }
 
 td.directory {
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-weight: 590;
+    padding: 6px;
+    font-size: 19px;
+}
+
+td.index {
     text-align: center;
     font-family: 'Cormorant SC', serif;
     font-weight: 590;
