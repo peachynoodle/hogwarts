@@ -109,7 +109,7 @@ h4 {
     text-align: center;
     font-family: 'Cinzel', serif;
     color: #000;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 h5 {
@@ -135,14 +135,32 @@ p.heavy {
     font-weight: 600;
 }
 
+@media (min-width: 450px) {
 h1::before {
     content: "~";
 }
 
 h1::after {
     content: "~";
+}}
+
+@media (min-width: 450px) {
+h2::before {
+    content: "⚬";
 }
 
+h2::after {
+    content: "⚬";
+}}
+
+@media (min-width: 450px) {
+h3::before {
+    content: "⚬";
+}
+
+h3::after {
+    content: "⚬";
+}}
 
 h1{
 
