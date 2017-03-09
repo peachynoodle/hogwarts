@@ -2,7 +2,11 @@
 
 body  {
     cursor: url('http://www.rw-designer.com/cursor-extern.php?id=26747'), default;
+    background-image: url("../img/parchment.jpg");
+    background-color: #cccccc;
+    background-attachment: fixed;
 }
+
 
 body.table {
     cursor: url('http://www.rw-designer.com/cursor-extern.php?id=26747'), default;
@@ -37,6 +41,10 @@ footer {
 
 nav {
 
+}
+
+div.classes {
+  padding: 20px;
 }
 
 @media screen and (max-device-width: 480px) {
@@ -88,8 +96,16 @@ h1 {
     font-family: 'Cinzel', serif;
     color: #000;
     font-size: 45px;
-
 }
+
+@media (min-width: 450px) {
+  h1 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: #000;
+    font-size: 30px;
+  }}
+
 
 h2 {
     text-align: center;
@@ -292,6 +308,80 @@ td.index {
     font-size: 19px;
 }
 
+table.table-stack {
+  width: 100%;
+}
+
+table.table-stack thead {
+  border: none;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+}
+
+table.table-stack tbody tr {
+  border: 1px solid #000;
+  display: block;
+  margin-bottom: 0.4rem;
+  padding: 0.4rem;
+}
+
+table.table-stack td {
+  display: block;
+  text-align: right;
+}
+
+table.table-stack td:before {
+  content: attr(aria-label);
+  float: left;
+  font-weight: 500;
+  color: #000;
+}
+
+@media (max-width: 719px) {
+  table.table-stack-sm {
+    width: 100%;
+  }
+
+  table.table-stack-sm thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+  }
+
+  table.table-stack-sm tbody tr {
+    border: 1px solid #000;
+    display: block;
+    margin-bottom: 0.4rem;
+    padding: 0.4rem;
+  }
+
+  table.table-stack-sm td {
+    display: block;
+    text-align: right;
+  }
+
+  table.table-stack-sm td:before {
+    content: attr(aria-label);
+    float: left;
+    font-weight: 400;
+    color: #000;
+  }
+
+  table.table-stack-sm tfoot td {
+    display: block;
+    text-align: left;
+  }
+}
 @media (max-width: 650px) {
   table.directory {
     width: 100%;
